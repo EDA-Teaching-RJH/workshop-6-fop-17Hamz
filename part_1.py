@@ -16,4 +16,8 @@ for _ in range(3):
     new_findings.append(rock_type)
     print(new_findings)
 
+if "Dust" in sample_bay:
+    sample_bay.remove("Dust")
+    print(sample_bay)
+
 
